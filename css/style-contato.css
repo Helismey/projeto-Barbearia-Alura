@@ -1,0 +1,168 @@
+/* Página de contato */
+.contato {
+  width: 940px;
+  margin: 40px auto;
+}
+
+.contato label,
+.input-group legend {
+  display: block;
+  margin: 0 0 5px;
+  font-size: 20px;
+}
+
+.campo-padrao,
+textarea {
+  display: block;
+  margin: 0 0 30px;
+  padding: 10px 20px;
+  width: 50%;
+  border: 1px solid #aaa;
+}
+
+.input-group {
+  margin: 0 0 20px;
+}
+
+.newsletter {
+  margin: 0 0 20px;
+}
+
+.botao {
+  margin: 20px 0 0;
+  width: 30%;
+  padding: 10px 20px;
+  font-size: 24px;
+  display: inline-block;
+  background: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.botao:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.funcionamento {
+  width: 940px;
+  margin: 0 auto 40px;
+}
+
+table {
+  margin: 10px 0 0;
+}
+
+th {
+  background: #777777;
+  color: #ffffff;
+}
+
+td,
+th {
+  border: 1px solid #000000;
+  padding: 5px 20px;
+}
+
+form {
+  width: 100%;
+  margin: 40px 0;
+}
+
+form label,
+form legend
+{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+  padding: 0 40px;
+}
+
+select {
+ font-size: 20px;
+ display: block;
+  margin: 10px 40px;
+  padding: 10px 25px;
+  width: 54%;
+}
+
+.input-padrao {
+  display: block;
+  margin: 10px 40px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+.enviar {
+  width: 40%;
+  padding: 15px;
+  margin: 0 40px;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background: darkorange;
+  transform: scale(1.1);
+}
+
+table {
+  margin: 10px 20px 40px 40px;
+  width: 54%;
+  
+}
+
+thead {
+  color: white;
+  font-weight: bold;
+}
+
+td,
+th {
+  padding: 8px 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  form{
+    margin: 20px;
+  }
+  
+  label,
+  legend {
+    width: 90%;
+    padding: 10px;
+  }
+
+  table,
+  select,
+  .enviar {
+    width: 95%;
+    margin: 10px;
+  }
+  .input-padrao {
+    margin: 10px;
+    width: 80%;
+  }
+
+  select {
+    padding: 10px;
+    font-size: 1.2em;
+  }
+
+  .enviar {
+    border-radius: 5px;
+  }
+}
